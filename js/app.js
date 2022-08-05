@@ -36,4 +36,8 @@ function subscribeNewsletter() {
     }
 }
 
+function search(){
+    alert("No se pudo encontrar la info solicitada☹️");
+}
+
 
