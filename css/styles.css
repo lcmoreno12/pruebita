@@ -541,7 +541,7 @@ textarea {
      height: 100vh;
      width: 100vw;
      font-size: var(--font-Size-Answer);
-    background: linear-gradient(hsl(231, 73%, 27%), rgb(101, 201, 231));
+    background: linear-gradient(45deg, #3D6474, #152730, #3A6B5E ,#7AE1C9); 
     display: grid;
     justify-content: center;
     align-content: center;
@@ -560,7 +560,6 @@ textarea {
     position: relative;
     animation: color 8s ease-in-out infinite;
 }
-
 
 .answer{
     display: none;
@@ -633,22 +632,27 @@ textarea {
 /*FOOTER - Newsletter Subscribe*/
 
 .newsletter__container{
+    height: 190px;
     background-color: #283D68;
     padding: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 120px;
 }
 
 .newsletter__title, .newsletter__input__container{
     padding-bottom: 20px;
+
 }
 
 .newsletter__title{
     font-size: 40px;
     color: white;
     font-family: Poppins;
+    margin-top: 55px;
+
 }
 
 .newsletter__input__container input{
@@ -685,7 +689,64 @@ textarea {
 
 /*FOOTER - Footer with links and social media*/
 
-/*FOOTER - Copyright and navmenu*/
+.footer__container{
+    background-color: #1C2A47;
+    display: flex;
+    padding: 30px;
+    color: white;
+}
+
+ .container__list ul{
+    list-style: none;
+}
+
+.container__list a{
+    text-decoration: none;
+    color: white;
+}
+
+.container__list a:hover{
+    color: #b1b1b1;
+
+}
+
+.socialmedia__container{
+
+    margin-left: 50px;
+}
+
+h4{
+    text-align: center;
+}
+
+.footer__container__tit{
+    margin-left: 90px;
+    width: 470px;
+    text-align: justify;
+}
+
+.socialmedia__container img:nth-of-type(1) ~ img {
+    margin-left: 15px;
+}
+
+
+.socialmedia__container img{
+    margin-top: 15px;
+
+}
+
+/*FOOTER - Copyright*/
+.copyright__container{
+    background-color: #121e35;
+    display: flex;
+    justify-content: center;   
+}
+
+.text__copyright{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: lighter;
+}
 
 
 
