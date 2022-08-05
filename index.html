@@ -11,6 +11,8 @@
 
 <body>
     <header>
+        <!-- HEADER NAV SECTION-->
+
         <section>
             <nav class="logoAndMenuContainer">
                 <nav>
@@ -23,12 +25,14 @@
                 </nav>
                 <ul>
                     <li><a href="#titleAboutUs">Sobre nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#feedbackForm">Feedback</a></li>
+                    <li><a href="#faq__section">FAQ</a></li>
                     <li><a href="#">Buscar</a></li>
                 </ul>
             </nav>
             <section>
+                <!-- HEADER BANNER SECTION-->
+
                 <div class="banner__bncontainer bncontainer">
                     <section class="banner__body banner__body--show" data-id="2">
 
@@ -58,7 +62,7 @@
         </section>
     </header>
     <main>
-        <!-- ARTICLES -->
+        <!-- MAIN ARTICLES SECTION-->
         <section>
             <div class="title__post__container">
                 <h5>Nuestros artículos <span>más leídos</span></h5>
@@ -135,7 +139,7 @@
                 </article>
             </div>
         </section>
-        <!-- SECTION ABOUT US BANNER -->
+        <!-- MAIN ABOUT US BANNER SECTION-->
         <section>
             <a name="titleAboutUs"></a>
             <div class="banner__about__us__container about__container">
@@ -165,7 +169,7 @@
             </div>
         </section>
 
-        <!-- SECTION OPINIONS SLIDER -->
+        <!-- MAIN OPINIONS SLIDER SECTION -->
         <section>
             <div class="slider__container container">
                 <img src="img/leftArrow.svg" alt="" class="slider__arrow" id="before">
@@ -237,6 +241,7 @@
         <!--MAIN FEEDBACK SECTION-->
 
         <section class="feedback__form">
+            <a name="feedbackForm"></a>
             <div class="container">
                 <div class="form">
                     <h2>Dejanos tu feedback</h2>
@@ -255,7 +260,7 @@
                                 placeholder="Comentarios" type="textarea"></textarea>
                         </div>
                         <div class="inputBox">
-                            <input type="submit" value="Enviar" onClick="validateForm()">
+                            <input type="submit" value="Enviar" id="btn__submit" onClick="validateForm()">
                         </div>
                     </form>
                 </div>
@@ -265,17 +270,18 @@
         <!--MAIN FAQ SECTION-->
 
         <section class="faq__section">
+            <a name="faq__section"></a>
             <div class="wrapper">
                 <div class="image__wrapper">
                     <div class="image__wrapper__inner">
                         <img src="img/FAQLogo.svg" alt="">
                     </div>
                 </div>
-    
+
                 <div class="accordion__wrapper">
                     <span class="title__accordion">FAQ</span>
                     <div class="questions__accordion">
-    
+
                         <div class="questions-answer__accordion">
                             <div class="question">
                                 <h3 class="title__question">
@@ -287,7 +293,7 @@
                                 Sí, nuestros cursos son 100% online. Los cursos cuentan con acceso las 24 horas.
                             </div>
                         </div>
-    
+
                         <div class="questions-answer__accordion">
                             <div class="question">
                                 <h3 class="title__question">
@@ -299,7 +305,7 @@
                                 Sí, desde Julio del 2022 nuestra tienda está activa.
                             </div>
                         </div>
-    
+
                         <div class="questions-answer__accordion">
                             <div class="question">
                                 <h3 class="title__question">
@@ -311,7 +317,7 @@
                                 Sí, podés encontrar nuestros profesionales destacados en Consultas.
                             </div>
                         </div>
-    
+
                         <div class="questions-answer__accordion">
                             <div class="question">
                                 <h3 class="title__question">
@@ -320,7 +326,8 @@
                                 <img src="img/iconArrowDown.svg" alt="">
                             </div>
                             <div class="answer">
-                                Se acepta la devolución de cualquier producto si el cliente no está satisfecho con el mismo.
+                                Se acepta la devolución de cualquier producto si el cliente no está satisfecho con el
+                                mismo.
                             </div>
                         </div>
                     </div>
@@ -328,7 +335,24 @@
             </div>
         </section>
 
-        <!--FOOTER - Newsletter Subscribe-->
+        <!--FOOTER - Newsletter Subscribe SECTION-->
+
+        <section>
+            <div class="newsletter__container">
+                <h2 class="newsletter__title">
+                    Subscribite a nuestro newsletter
+                </h2>
+
+                <div class="newsletter__input__container">
+                    <input type="text" id="input__email__info" class="newsletter__input" placeholder="Tú email">
+                </div>
+                <div class="btn__subscribe__container">
+                    <button name="btn__suscription" type="submit" onClick="subscribeNewsletter()"
+                        class="btn__subscribe">Subscribirse</button>
+                </div>
+
+            </div>
+        </section>
 
         <!--FOOTER - SOCIAL MEDIA SECTION-->
 
