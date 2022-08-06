@@ -24,19 +24,19 @@ questions.forEach((question) => question.addEventListener('click', () => {
 }));
 
 function subscribeNewsletter() {
-    let emailValue = document.querySelector('#input__email__info').value;
+    let emailValue = document.querySelector('#inputEmailInfo').value;
     const VALID_REGEX = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
     if (emailValue.match(VALID_REGEX)) {
         alert("Felicidades te has suscripto!😊");
-    } else if(emailValue==""){
+    } else if (emailValue == "") {
         alert("⚠️El campo de mail debe estar completo para suscribirte!");
-    }else{
+    } else {
         alert("El valor ingresado no es válido!☹️");
     }
 }
 
-function search(){
+function search() {
     alert("No se pudo encontrar la info solicitada☹️");
 }
 

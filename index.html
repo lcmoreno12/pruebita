@@ -18,17 +18,18 @@
             <nav class="logoAndMenuContainer">
                 <nav>
                     <a href=""></a>
-                    <img src="image/burguerMenu.svg" alt="Menu hamburguesa">
+                    <img class="menu__burguer" src="images/burguerMenu.svg" alt="Menu hamburguesa">
                     </a>
                     <a href="">
-                        <img src="image/logoLaMenteEsMaravillosa.svg" alt="Logo La mente es Maravillosa">
+                        <img src="images/logoLaMenteEsMaravillosa.svg" alt="Logo La mente es Maravillosa">
                     </a>
                 </nav>
                 <ul>
                     <li><a href="#titleAboutUs">Sobre nosotros</a></li>
                     <li><a href="#feedbackForm">Feedback</a></li>
                     <li><a href="#faq__section">FAQ</a></li>
-                    <li><input type="search" placeholder="Buscar" class="search__input"><button class="search__button" onClick="search()">🔎</button>
+                    <li><input type="search" placeholder="Buscar" class="search__input"><button class="search__button"
+                            onClick="search()">🔎</button>
                     </li>
                 </ul>
             </nav>
@@ -38,22 +39,26 @@
                 <div class="banner__bncontainer bncontainer">
                     <section class="banner__body banner__body--show" data-id="2">
                         <div class="banner__texts">
-                            <a class="banner__title"
-                                href="https://lamenteesmaravillosa.com/pensar-en-igualdad-es-crear-un-mundo-mejor-la-lucha-de-la-mujer-continua/"
-                                target="_blank">
-                                <h2 class="banner__title">Pensar en igualdad es crear un mundo mejor: la lucha de la
-                                    mujer continúa
-                            </a>
-                            <p class="banner__synopsis">
-                                En sororidad, en hermandad y sin antagonismos, avanzando juntas por un mismo proyecto,
-                                un
-                                mismo sueño. El día internacional de la mujer se celebra el 8 de marzo, pero su lucha
-                                por la
-                                igualdad es una tarea que se lleva a cabo los 365 días del año.
-                            </p>
+
+                            <h2 class="banner__title">Pensar en igualdad es crear un mundo mejor: la lucha de la
+                                mujer continúa
+
+                                <p class="banner__synopsis">
+                                    En sororidad, en hermandad y sin antagonismos, avanzando juntas por un mismo
+                                    proyecto,
+                                    un
+                                    mismo sueño. El día internacional de la mujer se celebra el 8 de marzo, pero su
+                                    lucha
+                                    por la
+                                    igualdad es una tarea que se lleva a cabo los 365 días del año.
+                                </p>
+                                <button class="btn__banner--leer">Leer más</button>
+                                <button class="btn__banner--contacto">Contactate con nosotros</button>
+
+
                         </div>
                         <figure class="banner__picture">
-                            <img src="image/photoOpinion4.jpeg" alt="Imagen de una mujer" class="banner__img">
+                            <img src="images/bannerPhoto.jpeg" alt="Imagen de una mujer" class="banner__img">
                         </figure>
                     </section>
                 </div>
@@ -64,19 +69,19 @@
         <!-- MAIN ARTICLES SECTION-->
         <section>
             <div class="title__post__container">
-                <h5>Nuestros artículos <span>más leídos</span></h5>
+                <h5 class="title__our__articles">Nuestros artículos <span>más leídos</span></h5>
             </div>
             <div class="index__post">
                 <article class="index__container">
                     <div class="image__post__container">
-                        <img src="image/workProductivePhoto.png" alt="Imagen de mujer trabajando">
+                        <img src="images/articleWorkPhoto.png" alt="Imagen de mujer trabajando">
                     </div>
                     <div class="meta__container">
                         <h2 class="title__post">
                             5 claves para ser más proactivo
                         </h2>
                         <span class="description__post">
-                            Estas claves para ser más proactivo en el trabajo son para que logres tus metas.
+                            Estas claves para ser más proactivo en el trabajo son...
                         </span>
                     </div>
                     <div class="button__container">
@@ -86,14 +91,14 @@
                 </article>
                 <article class="index__container">
                     <div class="image__post__container">
-                        <img src="image/runningPhoto.png" alt="Una persona haciendo ejercicio">
+                        <img src="images/runningPhoto.png" alt="Una persona haciendo ejercicio">
                     </div>
                     <div class="meta__container">
                         <h2 class="title__post">
                             Mindful running: los beneficios
                         </h2>
                         <span class="description__post">
-                            Correr está de moda. Este ejercicio, se puede practicar de muchas formas.
+                            Correr está de moda. Este ejercicio, se puede practicar...
                         </span>
                     </div>
                     <div class="button__container">
@@ -103,14 +108,14 @@
                 </article>
                 <article class="index__container">
                     <div class="image__post__container">
-                        <img src="image/foodPhoto.png" alt="Imagen de barritas de cereal">
+                        <img src="images/articleFoodPhoto.png" alt="Imagen de barritas de cereal">
                     </div>
                     <div class="meta__container">
                         <h2 class="title__post">
                             Comer de manera inteligente
                         </h2>
                         <span class="description__post">
-                            ¿Tienes poco tiempo para comer? En ese caso la smart food puede ser interesarte.
+                            ¿Tienes poco tiempo para comer? En ese caso la smart...
                         </span>
                     </div>
                     <div class="button__container">
@@ -120,14 +125,14 @@
                 </article>
                 <article class="index__container">
                     <div class="image__post__container">
-                        <img src="image/studyPhoto.png" alt="Una maestra dando clases">
+                        <img src="images/studyPhoto.png" alt="Una maestra dando clases">
                     </div>
                     <div class="meta__container">
                         <h2 class="title__post">
                             Estudiar más de un idioma
                         </h2>
                         <span class="description__post">
-                            Aprender idiomas ha pasado en los últimos años de ser una necesidad.
+                            Aprender idiomas ha pasado en los últimos años de...
                         </span>
                     </div>
                     <div class="button__container">
@@ -141,10 +146,15 @@
         <section>
             <a name="titleAboutUs"></a>
             <div class="banner__about__us__container about__container">
+                <figure class="banner__pict">
+                    <img src="images/ourTeamIllustration.svg" alt="Ilustracion de una mujer, decorado con hojas"
+                        class="banner__image">
+                </figure>
                 <section class="banner__about__body">
                     <div class="banner__about__texts">
                         <a class="banner__title" href="https://lamenteesmaravillosa.com/" target="_blank">
-                            <h2 class="banner__about__title">LA MENTE ES MARAVILLOSA</h2>
+                            <h2 class="banner__about__title">LA MENTE ES <span
+                                    class="banner__title__word">MARAVILLOSA</span></h2>
                         </a>
                         <p class="banner__subt">
                             Una página con la más variada información de actualidad. Lo que estás buscando, acá lo podés
@@ -155,18 +165,22 @@
                         <button type="button" class="button__explore"><a target="_blank"
                                 href="https://lamenteesmaravillosa.com/">Explorar</a></button>
                     </div>
-                    <figure class="banner__pict">
-                        <img src="image/img.svg" alt="Ilustracion de una mujer, decorado con hojas" class="banner__image">
-                    </figure>
-
                 </section>
             </div>
         </section>
 
         <!-- MAIN OPINIONS SLIDER SECTION -->
+    
         <section>
+           <div class="container__principal__texts">
+                <h5 class="title__opinions">¿Qué opinan nuestros lectores?</h5>
+                <h5 class="subtitle__opinions">Es esta la razon por la cual nuestros clientes nos eligen una y otra vez. Sabemos lo que
+                    hacemos.</h5>
+           </div>
+               
+         
             <div class="slider__container container">
-                <img src="image/leftArrow.svg" alt="Icono de flecha izquierda" class="slider__arrow" id="before">
+                <img src="images/leftArrow.svg" alt="Icono de flecha izquierda" class="slider__arrow" id="before">
                 <section class="slider__body slider__body--show" data-id="1">
                     <div class="slider__texts">
                         <h2 class="subtitle"> Juan Montes</h2>
@@ -174,31 +188,32 @@
                     </div>
 
                     <figure class="slider__picture">
-                        <img src="image/photoOpinion5.jpeg" alt="Imagen de un hombre" class="slider__img">
+                        <img src="images/opinionPhotoJuan.jpeg" alt="Imagen de un hombre" class="slider__img">
                     </figure>
+                    
                 </section>
                 <section class="slider__body" data-id="2">
                     <div class="slider__texts">
                         <h2 class="subtitle"> Lucía Moreno</h2>
-                        <p class="slider__review">Siempre que puedo la recomiendo. Me encanta la variedad de artículos, siempre algo nuevo para leer.</p>
+                        <p class="slider__review">Me encanta la variedad de artículos que hay.</p>
                     </div>
 
                     <figure class="slider__picture">
-                        <img src="image/photoOpinion2.jpeg" alt="Imagen de una mujer" class="slider__img">
+                        <img src="images/opinionPhotoLucia.jpeg" alt="Imagen de una mujer" class="slider__img">
                     </figure>
                 </section>
 
                 <section class="slider__body" data-id="3">
                     <div class="slider__texts">
-                        <h2 class="subtitle"> Abril Vischñevsk</h2>
-                        <p class="slider__review">Es un sitio super completo. Desde artículos muy informativos a poder tener contacto con verdades profesionales! La recomiendo.</p>
+                        <h2 class="subtitle"> Abril Vischy</h2>
+                        <p class="slider__review">Es un sitio super completo. La super recomiendo.</p>
                     </div>
 
                     <figure class="slider__picture">
-                        <img src="image/photoOpinion3.jpeg" alt="Imagen de una mujer" class="slider__img">
+                        <img src="images/opinionPhotoAbril.jpeg" alt="Imagen de una mujer" class="slider__img">
                     </figure>
                 </section>
-                <img src="image/rightArrow.svg" alt="Icono de flecha derecha" class="slider__arrow" id="next">
+                <img src="images/rightArrow.svg" alt="Icono de flecha derecha" class="slider__arrow" id="next">
 
             </div>
         </section>
@@ -248,11 +263,11 @@
                             <input type="email" name="form__Email" class="inputEmail" placeholder="Email">
                         </div>
                         <div class="inputBox">
-                            <textarea name="form__Comments" id="" cols="30" rows="10" class="inputText"
+                            <textarea name="form__Comments" cols="30" rows="10" class="inputText"
                                 placeholder="Comentarios" type="textarea"></textarea>
                         </div>
                         <div class="inputBox">
-                            <input type="submit" value="Enviar" id="btn__submit" onClick="validateForm()">
+                            <input type="submit" value="Enviar" id="btnSubmit" onClick="validateForm()">
                         </div>
                     </form>
                 </div>
@@ -265,7 +280,7 @@
             <div class="wrapper">
                 <div class="image__wrapper">
                     <div class="image__wrapper__inner">
-                        <img src="image/FAQLogo.svg" alt="Ilustracion de una persona sentada con email">
+                        <img src="images/FAQLogo.svg" alt="Ilustracion de una persona sentada con email">
                     </div>
                 </div>
                 <div class="accordion__wrapper">
@@ -275,9 +290,9 @@
                         <div class="questions-answer__accordion">
                             <div class="question">
                                 <h3 class="title__question">
-                                    Puedo realizar un curso con ustedes?
+                                    ¿Puedo realizar un curso con ustedes?
                                 </h3>
-                                <img src="image/iconArrowDown.svg" alt="Icono de flecha hacia abajo">
+                                <img src="images/iconArrowDown.svg" alt="Icono de flecha hacia abajo">
                             </div>
                             <div class="answer">
                                 Sí, nuestros cursos son 100% online. Los cursos cuentan con acceso las 24 horas.
@@ -286,9 +301,9 @@
                         <div class="questions-answer__accordion">
                             <div class="question">
                                 <h3 class="title__question">
-                                    La tienda ya se encuentra activa, para adquirir sus productos?
+                                    ¿La tienda ya se encuentra activa, para adquirir sus productos?
                                 </h3>
-                                <img src="image/iconArrowDown.svg" alt="Icono de flecha hacia abajo">
+                                <img src="images/iconArrowDown.svg" alt="Icono de flecha hacia abajo">
                             </div>
                             <div class="answer">
                                 Sí, desde Julio del 2022 nuestra tienda está activa.
@@ -297,9 +312,9 @@
                         <div class="questions-answer__accordion">
                             <div class="question">
                                 <h3 class="title__question">
-                                    Recomiendan profesionales?
+                                    ¿Recomiendan profesionales?
                                 </h3>
-                                <img src="image/iconArrowDown.svg" alt="Icono de flecha hacia abajo">
+                                <img src="images/iconArrowDown.svg" alt="Icono de flecha hacia abajo">
                             </div>
                             <div class="answer">
                                 Sí, podés encontrar nuestros profesionales destacados en Consultas.
@@ -312,7 +327,7 @@
                                 <h3 class="title__question">
                                     Política de devolución
                                 </h3>
-                                <img src="image/iconArrowDown.svg" alt="Icono de flecha hacia abajo">
+                                <img src="images/iconArrowDown.svg" alt="Icono de flecha hacia abajo">
                             </div>
                             <div class="answer">
                                 Se acepta la devolución de cualquier producto si el cliente no está satisfecho con el
@@ -332,7 +347,7 @@
                 </h2>
 
                 <div class="newsletter__input__container">
-                    <input type="text" id="input__email__info" class="newsletter__input" placeholder="Tú email">
+                    <input type="text" id="inputEmailInfo" class="newsletter__input" placeholder="Tú email">
                 </div>
                 <div class="btn__subscribe__container">
                     <button name="btn__suscription" type="submit" onClick="subscribeNewsletter()"
@@ -367,12 +382,14 @@
                 </div>
                 <div class="footer__container__tit socialmedia__container">
                     <h3 class="footer__title__txt__team">La mente es MARAVILLOSA</h3>
-                    <p>Los contenidos de esta publicación se redactan solo con fines informativos. En ningún momento
+                    <p class="footer__info">Los contenidos de esta publicación se redactan solo con fines informativos.
+                        En ningún momento
                         pueden servir para facilitar diagnósticos o sustituir la labor de un profesional. Le
                         recomendamos que contacte con su especialista de confianza.</p>
-                    <img class="first__social__icon" src="image/instagramIcon.svg" alt="Icono de red social, instagram">
-                    <img src="image/youtubeIcon.svg" alt="Icono de red social, youtube">
-                    <img src="image/twitterIcon.svg" alt="Icono de red social, twitter">
+                    <img class="first__social__icon" src="images/instagramIcon.svg"
+                        alt="Icono de red social, instagram">
+                    <img src="images/youtubeIcon.svg" alt="Icono de red social, youtube">
+                    <img src="images/twitterIcon.svg" alt="Icono de red social, twitter">
 
                 </div>
             </div>
